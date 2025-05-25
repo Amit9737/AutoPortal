@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AutoPortal</title>
+  <link rel="stylesheet" href="../CSS/Bootstrap/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">AutoPortal</a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon bg-light"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="BuyCar.html">Buy Car</a></li>
+          <li class="nav-item"><a class="nav-link" href="SellCar.html">Sell Car</a></li>
+          <li class="nav-item"><a class="nav-link" href="Login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1 data-aos="fade-up">Drive Your Dream</h1>
+      <p data-aos="fade-up" data-aos-delay="200">India's trusted second-hand vehicle marketplace</p>
+    </div>
+  </section>
+
+  <!-- Buy Car Section -->
+  <section class="container py-5">
+    <h2 class="text-center section-title" data-aos="fade-right">Featured Cars</h2>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card">
+          <img src="../Product-Image/Honda-City.jpg" class="card-img-top" alt="Car">
+          <div class="card-body">
+            <h5 class="card-title">Honda City</h5>
+            <p class="card-text">₹5.5 Lakh • 2018 • Delhi</p>
+            <a href="#" class="btn btn-primary w-100">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card">
+          <img src="../Product-Image/Scorpio.jpg" class="card-img-top" alt="SUV">
+          <div class="card-body">
+            <h5 class="card-title">Scorpio</h5>
+            <p class="card-text">₹8.2 Lakh • 2020 • Mumbai</p>
+            <a href="#" class="btn btn-primary w-100">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card">
+          <img src="../Product-Image/Verna.jpg" class="card-img-top" alt="Sedan">
+          <div class="card-body">
+            <h5 class="card-title">Hyundai Verna</h5>
+            <p class="card-text">₹6.8 Lakh • 2019 • Bangalore</p>
+            <a href="#" class="btn btn-primary w-100">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sell Car Section -->
+  <section class="bg-white py-5">
+    <div class="container text-center">
+      <h2 class="section-title" data-aos="fade-left">Want to Sell Your Car?</h2>
+      <p class="mb-4" data-aos="fade-left" data-aos-delay="100">Post your car in minutes and reach thousands of buyers.</p>
+      <a href="#" class="btn btn-primary px-4 py-2" data-aos="zoom-in">Start Selling</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 AutoPortal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JS Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+:root {
+    --primary: #0077b6;
+    --dark: #023e8a;
+    --light: #f1faff;
+    --text-dark: #1b1b1b;
+  }
+/* Index Page Css */
+  body {
+    background: var(--light);
+    font-family: "Segoe UI", sans-serif;
+  }
+
+  .navbar {
+    background-color: var(--dark);
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+  }
+
+  .hero {
+    background: linear-gradient(rgba(2, 62, 138, 0.5), rgba(2, 62, 138, 0.5)),
+      url("../Image/front-car-lights-night-road.jpg") center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  .hero p {
+    font-size: 1.25rem;
+  }
+
+  .section-title {
+    color: var(--dark);
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+  .card {
+    border: none;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .btn-primary {
+    background-color: var(--primary);
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #005f8a;
+  }
+
+  footer {
+    background-color: var(--dark);
+    color: white;
+    padding: 30px 0;
+  }
+  
